@@ -1,0 +1,26 @@
+import UIKit
+
+var str = "Hello, playground"
+
+// var - переменая let - констанста
+
+let friend1 = "John", friend2 = "Helga"
+
+var age1 = 54, age2 = 25
+
+let names = friend1 + " + " + friend2
+
+var ravno = age1 - age2
+
+let ages: String = String(age1) + " - " + String(age2) + " = " + String(ravno)
+
+var `var` = "Пример переменной с именем var"
+
+//входной параметр с именем
+// anotherFunction(name: "Bazil")
+// someFunction(a:b:)
+//безымяный входной параметр
+// print("Это тоже входнйо параметр")
+
+var foo = "Swift"
+print("Я изучаю \(foo)")
